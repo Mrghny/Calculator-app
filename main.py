@@ -17,7 +17,10 @@ if operation == "*":
 if operation == "/":
     result = x / y
 
+# power operation
 if operation == "^":
     result =  pow(y, x) # Design feature
+
+
 
 print(result)
