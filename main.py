@@ -1,3 +1,4 @@
+import math
 ## Calculator App
 
 x = int(input("Enter the first number: "))
@@ -19,5 +20,9 @@ if operation == "/":
 
 if operation == "^":
     result =  pow(x, y)
+
+if operation == "sin":
+    result = math.sin(x)
+
 
 print(result)
