@@ -19,7 +19,7 @@ if operation == "/":
     result = x / y
 
 if operation == "^":
-    result =  pow(x, y)
+    result =  pow(y, x) # Design feature
 
 if operation == "sin":
     result = math.sin(x)
