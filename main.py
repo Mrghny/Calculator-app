@@ -17,5 +17,7 @@ if operation == "*":
 if operation == "/":
     result = x / y
 
+if operation == "^":
+    result =  pow(x, y)
 
 print(result)
