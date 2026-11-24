@@ -8,4 +8,14 @@ result = 0
 if operation == "+":
     result = x + y
 
+if operation == "-":
+    result = x - y
+
+if operation == "*":
+    result = x * y
+
+if operation == "/":
+    result = x + y
+
+
 print(result)
