@@ -18,6 +18,6 @@ if operation == "/":
     result = x / y
 
 if operation == "^":
-    result =  pow(x, y)
+    result =  pow(y, x) # Design feature
 
 print(result)
