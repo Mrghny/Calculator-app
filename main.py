@@ -15,7 +15,7 @@ if operation == "*":
     result = x * y
 
 if operation == "/":
-    result = x + y
+    result = x / y
 
 
 print(result)
